@@ -1,4 +1,10 @@
 import { initializeApp } from 'firebase/app';
+// app.js
+import './auth.js';
+import './notes.js';
+import { firebaseConfig } from './firebase-config.js';
+
+// Your app code here
 import { 
     getAuth, 
     onAuthStateChanged, 
